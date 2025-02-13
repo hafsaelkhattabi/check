@@ -1,9 +1,9 @@
 import React from 'react'
 import product from './Product'
 
-function Image () {
+function Image (props) {
   return (
-    <img src='{product.image}' alt='{product.name}'></img>
+    <img src='{props.product.image}'></img>
   )
 }
 
