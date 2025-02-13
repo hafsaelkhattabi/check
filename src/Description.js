@@ -1,9 +1,9 @@
 import React from 'react'
 import product from './Product'
 
-function Description () {
+function Description (props) {
   return (
-    <p>{product.description}</p>
+    <p>{props.product.description}</p>
   )
 }
 
