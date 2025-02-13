@@ -1,9 +1,9 @@
 import React from 'react'
 import product from './Product'
 
-function Price() {
+function Price(props) {
   return (
-    <h3>Price: ${product.price}</h3>
+    <h3>Price: ${props.product.price}</h3>
   )
 }
 
